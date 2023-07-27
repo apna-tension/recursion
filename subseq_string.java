@@ -5,6 +5,7 @@ public class subseq_string {
         solve(str, "");
         System.out.println();
     }
+    // print all the subsequence of a string ;
     private static void solve(String str, String p) {
         if (str.isEmpty()) {
             System.out.print(p + " ");
